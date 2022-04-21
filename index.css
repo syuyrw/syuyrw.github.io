@@ -9,4 +9,6 @@ h1 {
     border-bottom: 50px;
     text-align: center;
     color: white;
+    border-radius: 25px;
+    padding: 20px;
 }
