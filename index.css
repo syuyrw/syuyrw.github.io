@@ -5,10 +5,11 @@ body {
 
 h1 {
     background-color: darkblue;
-    border-top: 50px;
-    border-bottom: 50px;
+    border-top: 70px;
+    border-bottom: 70px;
     text-align: center;
     color: white;
     border-radius: 25px;
     padding: 20px;
+    width: 5em;
 }
