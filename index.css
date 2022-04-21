@@ -18,9 +18,10 @@ h1 {
 
 footer {
     background-color: darkblue;
+    height: 75px;
     border-top: 60px;
     border-bottom: 60px;
-    text-align: center;
+    text-align: center, middle;
     color: white;
     border-radius: 25px;
 }
