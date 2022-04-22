@@ -25,3 +25,16 @@ footer {
     color: white;
     border-radius: 25px;
 }
+
+.body-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+
+.titlegrid {
+    grid-column: 0/1;
+}
+
+.assignments {
+    grid-column: 0/1;
+}
