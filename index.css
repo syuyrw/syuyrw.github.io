@@ -6,10 +6,10 @@ body {
 h1 {
     background-color: darkblue;
     font-size: 32px;
-    height: 100px;
-    background-size: 100px;
+    height: 50px;
+    background-size: 50px;
     text-align: center;
-    line-height: 100px;
+    line-height: 50px;
     color: white;
     border-radius: 25px;
     
