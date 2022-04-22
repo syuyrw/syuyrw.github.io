@@ -13,6 +13,8 @@ h1 {
     color: white;
     border-radius: 25px;
     font-size: 2.5em;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
@@ -24,6 +26,8 @@ footer {
     text-align: center;
     color: white;
     border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .body-grid {
