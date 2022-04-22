@@ -26,7 +26,7 @@ footer {
     text-align: center;
     color: white;
     border-radius: 25px;
-    margin: 0px auto;
+    width: 100%;
 }
 
 .body-grid {
