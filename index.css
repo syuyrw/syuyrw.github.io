@@ -38,3 +38,7 @@ footer {
 .assignments {
     grid-column: 0/1;
 }
+
+.profile-photo {
+    grid-column: 1/2;
+}
