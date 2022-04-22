@@ -13,7 +13,7 @@ h1 {
     color: white;
     border-radius: 25px;
     font-size: 2.5em;
-    grid-column: 1/2;
+    
     
 }
 
@@ -25,7 +25,7 @@ footer {
     text-align: center;
     color: white;
     border-radius: 25px;
-    grid-column: 1/2;
+    width: 150%;
 }
 
 .body-grid {
