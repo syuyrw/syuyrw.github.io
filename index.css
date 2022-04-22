@@ -5,7 +5,9 @@ body {
 
 h1 {
     background-color: darkblue;
+    font-size: 32px;
     height: 200px;
+    width: auto;
     background-size: 100px;
     border-top: 100px;
     border-bottom: 100px;
