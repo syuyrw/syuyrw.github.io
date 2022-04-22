@@ -43,5 +43,5 @@ footer {
 }
 
 .profile-photo {
-    grid-column: 2;
+    grid-column: .5/1.5;
 }
