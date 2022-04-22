@@ -5,13 +5,9 @@ body {
 
 h1 {
     background-color: darkblue;
-    padding: 90px;
     font-size: 32px;
     height: 100px;
-    width: auto;
     background-size: 100px;
-    border-top: 100px;
-    border-bottom: 100px;
     text-align: center;
     text-align: middle;
     line-height: 100px;
