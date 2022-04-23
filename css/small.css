@@ -65,17 +65,3 @@ header img {
     height: auto;
 }
 
-.body-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.titlegrid {
-    grid-column: 1;
-    
-}
-
-.content {
-    grid-column: 1;
-}
-
