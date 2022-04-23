@@ -69,6 +69,6 @@ header, footer {
 }
 
 .screenshot {
-    height: 1015px;
-    width: 468.75px;
+    height: auto;
+    width: 300 px;
 }
