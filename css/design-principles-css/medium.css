@@ -23,7 +23,7 @@
         border-radius: 0 10px 0 0;
     }
 
-    .body-grid {
+    .content-grid {
         display: grid;
         grid-template-columns: 50% 50%;
     }
