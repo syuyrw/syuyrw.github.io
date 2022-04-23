@@ -25,7 +25,6 @@
 
     .content-grid {
         grid-template-columns: 50% 50%;
-        grid-template-rows: 1em 1em;
     }
 
     .white-space {
