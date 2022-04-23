@@ -49,7 +49,7 @@
     }
 
     .visual-heirarchy {
-        grid-column: .5;
+        grid-column: 1.5;
         grid-row: 2;
         padding: 10px; 
     }
