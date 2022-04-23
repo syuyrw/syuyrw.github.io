@@ -69,7 +69,8 @@ header, footer {
 }
 
 .screenshot {
-    height: auto;
+
     width: 300px;
+    height: auto;
     border-radius: 25px;
 }
