@@ -35,14 +35,25 @@ h2 {
 }
 
 footer {
-    background-color: darkblue;
-    height: 125px;
-    border-top: 60px;
-    border-bottom: 60px;
+    margin: 0 auto;
+    padding: 0.75rem;
+    max-width: 45rem;
+}
+
+header {
+    margin-top: 10px;
+}
+
+header nav {
+    background-color: var(--blue);
+    color: #fff;
+}
+
+header, footer {
     text-align: center;
-    color: white;
-    border-radius: 25px;
-    width: 150%;
+    background-color: var(--lightblue);
+    color: #fff;
+    border-radius: 10px;
 }
 
 .body-grid {
@@ -60,5 +71,9 @@ footer {
 }
 
 .profile-photo {
-    grid-column: .5/1.5;
+    width: 200px;
+    height: auto;
+    box-shadow: 0 0 30px #444;
+    float: right;
+    border-radius: 0 10px 0 0;
 }
