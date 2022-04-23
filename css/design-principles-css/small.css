@@ -68,3 +68,7 @@ header, footer {
     text-align: center;
 }
 
+.screenshot {
+    height: 1015px;
+    width: 468.75px;
+}
