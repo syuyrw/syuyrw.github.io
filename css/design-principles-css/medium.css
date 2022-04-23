@@ -23,7 +23,7 @@
         border-radius: 0 10px 0 0;
     }
 
-    .body-grid {
+    .content {
         grid-template-columns: 1em 1em;
         grid-template-rows: 1em 1em;
     }
