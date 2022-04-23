@@ -1,0 +1,26 @@
+@media only screen and (min-width: 101em) {
+
+
+    .content-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        padding: 2%;
+    }
+
+    .white-space {
+        grid-column: 1;
+        padding: 10px;
+    }
+
+    .rule-of-thirds {
+        grid-column: 2;
+        padding: 10px;
+        padding-right: 10px;
+    }
+
+    .visual-heirarchy {
+        grid-column: 3;
+        padding: 10px; 
+    }
+}
