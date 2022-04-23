@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 50.5em) {
     h1 {
         font-size: 2.5rem;
         margin: 0.14rem;
@@ -43,7 +43,7 @@
     }
 
     .visual-heirarchy {
-        grid-column: .5/1.5;
+        grid-column: 1.5/2.5;
         grid-row: 2;
         padding: 10px;
     }
