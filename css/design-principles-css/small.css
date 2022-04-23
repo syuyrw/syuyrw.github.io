@@ -61,6 +61,10 @@ header, footer {
 }
 
 .topic-link {
+    display: inline-block;
+}
+
+.link-container {
     text-align: center;
 }
 
