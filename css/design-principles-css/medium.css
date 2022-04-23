@@ -44,6 +44,7 @@
         grid-column: 3/5;
         grid-row: 1;
         padding: 10px;
+        padding-right: 10px;
     }
 
     .visual-heirarchy {
