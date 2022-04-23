@@ -23,6 +23,10 @@
         border-radius: 0 10px 0 0;
     }
 
+    p {
+        padding: 10px;
+    }
+
     .content-grid {
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
