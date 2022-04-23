@@ -27,11 +27,15 @@ h1 {
     
 }
 
-
+.subheading {
+    font-size: 1.5rem;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+}
 
 h2 {
     font-size: 1rem;
-    border-bottom: 1px solid lightblue;
+    border-bottom: 1px solid darkblue;
     margin-bottom: 0.5rem;
 }
 
@@ -54,7 +58,11 @@ header, footer {
     text-align: center;
     background-color: var(--lightblue);
     color: #fff;
-    border-radius: 10px;
+}
+
+header img {
+    width: 200px;
+    height: auto;
 }
 
 .body-grid {
@@ -71,10 +79,3 @@ header, footer {
     grid-column: 1;
 }
 
-.profile-photo {
-    width: 200px;
-    height: auto;
-    box-shadow: 0 0 30px #444;
-    float: right;
-    border-radius: 0 10px 0 0;
-}
