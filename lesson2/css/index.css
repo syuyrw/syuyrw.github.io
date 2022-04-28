@@ -48,7 +48,7 @@ h2 {
 }
 
 nav {
-    background-color: var(--blue);
+    background-color: var(--lightblue);
     text-align: center;
     box-shadow: 0 2px 15px gray;
 }
@@ -70,7 +70,7 @@ nav li a {
 }
 
 nav a:hover {
-    background-color: blue;
+    background-color: rgb(156, 163, 165);
     color: #36454f;
 }
 
