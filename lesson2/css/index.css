@@ -56,14 +56,16 @@ nav {
 
 nav ul {
     list-style-type: none;
-    display: inline-block;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
     margin: auto;
     padding: 0;
     overflow: hidden;
 }
 
 #nav ul {
-    display: inline-block;
+    display: grid;
+
     list-style-type: none;
 }
 
@@ -103,3 +105,9 @@ header, footer {
     color: #fff;
 }
 
+@media only screen and (min-width: 37.5em) {
+    nav ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    }
+}
