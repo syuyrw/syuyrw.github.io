@@ -60,6 +60,11 @@ nav ul {
     overflow: hidden;
 }
 
+#nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
 nav li a {
     display: block;
     color: #fff;
