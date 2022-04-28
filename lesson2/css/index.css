@@ -56,7 +56,7 @@ nav {
 
 nav ul {
     list-style-type: none;
-    display: grid;
+    display: inline-block;
     grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
     margin: auto;
     padding: 0;
