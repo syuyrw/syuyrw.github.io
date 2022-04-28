@@ -52,20 +52,15 @@ nav {
     background-color: var(--lightblue);
     text-align: center;
     box-shadow: 0 2px 15px gray;
-    width: 100%;
 }
 
 nav ul {
     list-style-type: none;
-    display: flex;
+    display: inline-block;
     grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
     margin: 0;
     padding: 0;
     overflow: hidden;
-}
-
-nav ul li {
-    flex: 1 1
 }
 
 
