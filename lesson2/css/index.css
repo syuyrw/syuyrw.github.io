@@ -82,7 +82,7 @@ nav li a {
 }
 
 nav a:hover {
-    background-color: black;
+    background-color: gray;
     color: #36454f;
 }
 
