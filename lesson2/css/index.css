@@ -47,6 +47,33 @@ h2 {
     margin-bottom: 0.5rem;
 }
 
+nav {
+    background-color: var(--blue);
+    text-align: center;
+    box-shadow: 0 2px 15px gray;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+nav a:hover {
+    background-color: blue;
+    color: #36454f;
+}
+
 footer {
     
     min-height:50px;
