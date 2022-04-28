@@ -69,6 +69,10 @@ nav ul {
     list-style-type: none;
 }
 
+.nav-bar {
+    align-items: center;
+}
+
 nav li a {
     display: inline-block;
     grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
