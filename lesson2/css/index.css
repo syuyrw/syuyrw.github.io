@@ -25,7 +25,7 @@ body {
 h1 {
     font-size: 1.5rem;
     margin: 0.14rem;
-    color: blue;
+    color: rgb(105, 105, 113);
     
 }
 
@@ -39,7 +39,7 @@ h1 {
 
 .subheading {
     font-size: 1.5rem;
-    color: blue;
+    color: rgb(105, 105, 113);
     text-shadow: 2px 2px 5px #000;
 }
 
@@ -74,7 +74,7 @@ nav ul {
 nav li a {
     display: inline-block;
     grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-    color: blue;
+    color: rgb(105, 105, 113);
     text-align: center;
     padding: 0.75rem;
     text-decoration: none;
@@ -99,13 +99,13 @@ header {
 
 header nav {
     background-color: var(--blue);
-    color: blue;
+    color: rgb(105, 105, 113);
 }
 
 header, footer {
     text-align: center;
     background-color: var(--lightblue);
-    color: blue;
+    color: rgb(105, 105, 113);
 }
 
 @media only screen and (min-width: 37.5em) {
