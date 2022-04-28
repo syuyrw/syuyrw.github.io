@@ -74,7 +74,7 @@ nav ul {
 nav li a {
     display: inline-block;
     grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-    color: rgb(105, 105, 113);
+    color: black;
     text-align: center;
     padding: 0.75rem;
     text-decoration: none;
@@ -82,7 +82,7 @@ nav li a {
 }
 
 nav a:hover {
-    background-color: rgb(156, 163, 165);
+    background-color: black;
     color: #36454f;
 }
 
@@ -99,13 +99,13 @@ header {
 
 header nav {
     background-color: var(--blue);
-    color: rgb(105, 105, 113);
+    color: black;
 }
 
 header, footer {
     text-align: center;
     background-color: var(--lightblue);
-    color: rgb(105, 105, 113);
+    color: black;
 }
 
 @media only screen and (min-width: 37.5em) {
