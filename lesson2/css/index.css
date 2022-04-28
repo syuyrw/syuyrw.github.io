@@ -98,13 +98,13 @@ header {
 
 header nav {
     background-color: var(--blue);
-    color: #fff;
+    color: blue;
 }
 
 header, footer {
     text-align: center;
     background-color: var(--lightblue);
-    color: #fff;
+    color: blue;
 }
 
 @media only screen and (min-width: 37.5em) {
