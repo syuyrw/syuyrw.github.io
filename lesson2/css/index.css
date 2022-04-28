@@ -71,6 +71,7 @@ nav ul {
 
 .nav-bar {
     align-items: center;
+    left: 50%;
 }
 
 nav li a {
