@@ -129,3 +129,12 @@ main p {
     color: black;
 }
 
+h1 {
+    text-decoration: none;
+}
+
+.contentbox {
+    padding: 10px;
+    border-style: outset;
+    margin: 10px;
+}

@@ -2,8 +2,9 @@
     h1 {
         font-size: 2.5rem;
         margin: 0.14rem;
-        
     }
+
+
 
     nav button {
         display: none;
@@ -27,18 +28,21 @@
 
     .headings h1 {
         font-size: 2rem;
+        text-decoration: none;
     }
 
     .headings h2 {
         font-size: 1.5rem;
+        text-decoration: none;
     }
     
+    h {}
     
-    
-    h2 {
+    h2 u {
         font-size: 1.5rem;
         border-bottom: 1px solid lightblue;
         margin-bottom: 0.5rem;
+        text-decoration: none;
     }
 
     header, footer {
