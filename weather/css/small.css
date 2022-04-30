@@ -14,6 +14,7 @@
 
 nav {
     margin: 0 auto;
+    background-color: #76B2D3;
 }
 
 nav button {
@@ -65,18 +66,29 @@ body {
     font-size: 15px;
     line-height: 1.5;
     font-family: "Open Sans";
-    color: darkblue;
+    color: #707070;
     height: 100%;
 }
+
+
 header {
     padding: 5px 0;
     display: flex;
     align-content: center;
     justify-content: center;
 
-    background-color: var(--lightblue);
+    background-color: #358dc0;
     color: #fff;
 }
+
+
+footer {
+    text-align: center;
+    background-color: #358dc0;
+    color: #fff;
+}
+
+
 
 .headings h1 {
     font-size: 1.75rem;
@@ -113,10 +125,7 @@ footer {
 
 }
 
-
-
-footer {
-    text-align: center;
-    background-color: var(--lightblue);
-    color: #fff;
+main p {
+    color: black;
 }
+
