@@ -12,6 +12,54 @@
     box-sizing: border-box;
 }
 
+nav {
+    margin: 0 auto;
+}
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+
+}
+
+nav ul li a {
+    display: block;
+    color: #333;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    border-top: 1px solid rgba(0,0,0,0.5)
+}
+
+nav ul li.active a {
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+
+.responsive li {
+    display: block;
+}
+
 body {
     background-color:white;
     font-size: 15px;
@@ -30,9 +78,24 @@ header {
     color: #fff;
 }
 
+.headings h1 {
+    font-size: 1.75rem;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.headings h2 {
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .headings {
     display: flex;
     flex-direction: column;
+    margin-left: .5rem;
+    justify-content: center;
 }
 
 footer {
@@ -44,7 +107,9 @@ footer {
 
 .logo {
     width: 80px;
-    height:80px;
+    height: 80px;
+    justify: center;
+    align: center;
 
 }
 

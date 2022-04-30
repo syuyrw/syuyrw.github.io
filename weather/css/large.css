@@ -1,3 +1,19 @@
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 64rem) {
+
+    .headings h1 {
+        font-size: 2.25rem;
+    }
+
+    .headings h2 {
+        font-size: 1.75rem;
+    }
     
+    .logo {
+        width: 120px;
+        height: 120px;
+    }
+
+    nav ul li a {
+        padding: .5rem 1rem;
+    }
 }
