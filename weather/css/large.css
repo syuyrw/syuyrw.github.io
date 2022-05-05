@@ -2,8 +2,7 @@
 
     main {
         max-width: 1000px;
-        margin-left: auto;
-        margin-right:auto;  
+        margin: 0 auto; 
     }
 
     .headings h1 {
@@ -22,4 +21,7 @@
     nav ul li a {
         padding: .5rem 1rem;
     }
+
+    
+    
 }

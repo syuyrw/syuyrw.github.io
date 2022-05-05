@@ -4,8 +4,6 @@
         margin: 0.14rem;
     }
 
-
-
     nav button {
         display: none;
     }
@@ -36,7 +34,6 @@
         text-decoration: none;
     }
     
-    h {}
     
     h2 u {
         font-size: 1.5rem;
@@ -47,5 +44,45 @@
 
     header, footer {
         border-radius: 10px;
+    }
+
+    .summary {
+        position: absolute;
+        top: 30px;
+        right: 50px;
+        background: radial-gradient(#eee, #76B2D3);
+        border: 1px solid #000;
+        padding: 1.5rem;
+        box-shadow: 0 0 30px #333;
+        opacity: .9;
+    }
+
+    .article img {
+        max-width: 300px;
+        height: auto;
+    }
+    .article-content  {
+        columns: 2 auto;
+        padding: 20px;
+        margin-left: 100px;
+    }
+
+    .contact {
+        columns: 2 auto;
+        padding: 20px;
+        margin-left: 100px;
+    }
+
+    .seven-day {
+        display: block;
+    }
+
+    .flex {
+        columns: 7 auto;
+    }
+
+    .heads {
+        height: 60px;
+        font-size: 28px;
     }
 }
