@@ -61,9 +61,6 @@ nav ul.open {display: block;}
     display: block;
 }
 
-.content-grid {
-    grid-template-columns: 2;
-    grid-template-rows: auto;
 }
 
 body {
