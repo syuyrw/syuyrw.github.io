@@ -3,13 +3,6 @@
 const date = new Date();
 
 // get the date as a string
-const n = date.toDateString();
-
-// get the time as a string
-const time = date.toLocaleTimeString();
-
+const n = date.toLocaleDateString('en-us', { weekday:"long", year:"numeric", day:"numeric", month:"long"});
 // display date
-document.write('Date: ' + n);
-
-// display time
-console.log('Time: ' + time);
+document.write(n);
