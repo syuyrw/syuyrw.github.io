@@ -1,1 +1,1 @@
-document.write(/\d{4}/.exec(Date())[0])
+new Date().toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"}) 
