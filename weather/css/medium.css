@@ -85,4 +85,8 @@
         height: 60px;
         font-size: 28px;
     }
+
+    .mountains {
+        float: top, right;
+    }
 }

@@ -21,7 +21,9 @@
     </div>
     
     <header>
-        <img src="images/icon.png" alt="site-logo" class="logo">
+        <figure class="site-logo"> 
+            <img src="images/icon.png" alt="site-logo" class="logo">
+        </figure>   
         <section class="headings">
             <h1>UC Weather Wiz</h1>
             <h2>Actively seeking weather activities!</h2>
@@ -48,16 +50,21 @@
             </div>
             
             <div class="weather-summary">
-                <div class="herediv">
-                    <img src="images/banner.jpeg" alt="preston-banner">
-                </div>
+                <figure class="hero-banner">
+                    <img src="images/Large.jpg" alt="preston-banner"
+                    srcset="images/Large.jpg 1621w,
+                    images/medium.jpg 800w,
+                    images/small.jpg 491w">
+                </figure>
                 <div class="summary">
                     <h2 class="summary-head">Weather Summary</h2>
                     <div class="current">
                         <p>Currently: Rainy
                         </p>
+                        <p>Current Temperature: <span id="temp">49</span>°</p>
                         <p>High: 52°</p>
-                        <p>Wind Speed: 3.6 mph</p>
+                        <p>Wind Speed: <span id="speed">3.6</span> mph</p>
+                        <script src="js/windchill.js" id="windChill"></script>
                         <p>Humidity: 32%</p>
                     </div>
                 </div>
@@ -113,8 +120,17 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus non laudantium, nulla rem cumque quidem ipsa inventore.
                         Debitis inventore, itaque delectus reprehenderit ad earum esse dolore dolorum molestiae ullam nihil.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus non laudantium, nulla rem cumque quidem ipsa inventore.
+                        Debitis inventore, itaque delectus reprehenderit ad earum esse dolore dolorum molestiae ullam nihil.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus non laudantium, nulla rem cumque quidem ipsa inventore.
+                        Debitis inventore, itaque delectus reprehenderit ad earum esse dolore dolorum molestiae ullam nihil.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus non laudantium, nulla rem cumque quidem ipsa inventore.
                         Debitis inventore, itaque delectus reprehenderit ad earum esse dolore dolorum molestiae ullam nihil.</p>
-                    <img src="images/mountains.jpeg" alt="mountains" class="mountains">
+                    </p>
+                    <figure  class="mountains">
+                        <img src="images/mountains.jpeg" alt="mountains" sizes="50vw"
+                        srcset="images/mountains.jpeg 860w,
+                    images/mountains2.jpeg 430w,
+                    images/mountains3.jpeg 215w">
+                    </figure>
                 </div>
             </div>
 
