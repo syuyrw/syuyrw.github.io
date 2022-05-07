@@ -7,6 +7,10 @@
     --darkgray: darkgray;
 }
 
+.wind {
+    color: black;
+}
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -191,6 +195,7 @@ footer a {
 .summary {
     background-color: #76B2D3;
     text-align: center;
+    color: black;
 }
 
 .summary h2 {color: white}
@@ -216,6 +221,8 @@ main figure.mountains img {width: 100%;
     margin-right: 5%;
     margin-top: 1%;
 }
+
+
 
 
 
