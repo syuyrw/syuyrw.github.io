@@ -22,6 +22,9 @@
         padding: .5rem 1rem;
     }
 
+    form label.sbs {
+        padding: .4rem 0;
+    }
     
     
 }
