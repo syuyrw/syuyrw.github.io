@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+:root {
+    --blue: darkblue;
+    --lightblue: lightblue;
+    --gray: gray;
+    --darkgray: darkgray;
+}
+
+body{
+    text-align: center;
+    background-color: #76B2D3;
+    padding: 1rem;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+section{
+    border: 3px solid black;
+    margin: 1rem;
+    background-color: darkgray;
+}
+footer{
+    background-color: #358dc0;
+    margin: -.5rem;
+    padding: .5rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+header{
+    background-color: #445ba9;
+    margin: -1.4rem -.5rem;
+    margin-bottom: 2rem;
+    padding: .5rem;
+}
+@media (min-width: 51.3rem){
+    .cards{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 101rem){
+    .cards{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
