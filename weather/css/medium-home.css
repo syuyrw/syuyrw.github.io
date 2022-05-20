@@ -90,7 +90,7 @@
     .weather-story img {
         float: right;
         max-width: 300px;
-        max-height: auto;
+        height: auto;
         min-height: auto;
     }
 }
