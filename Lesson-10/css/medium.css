@@ -93,15 +93,14 @@
     }
 
     .flex-col, .column-col, .grid-col {
-		border-bottom: 1px solid var(black);
-		border-left: 1px solid var(black);
-		border-right: 1px solid var(black);
-		text-align: center;
+		border-bottom: 1px solid black;
+		border-left: 1px solid black;
+		border-right: 1px solid black;
 	}
 	.col-head {
 		display: block;
 		padding: 5px;
-		border-bottom: 1px solid var(black);
+		border-bottom: 1px black;
 		text-align: center;
 	}
 	.forecast img {
@@ -118,7 +117,7 @@
 	.col-head,th {
 		font-weight: 700;
 		font-size: 1rem;
-		background-color: var(--primary-color);
+		background-color: #76B2D3;
 		color: white;
 	}
 
@@ -134,7 +133,4 @@
         font-size: 28px;
     }
 
-    .mountains {
-        float: top, right;
-    }
 }
