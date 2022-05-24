@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
+    <script src="js/datetime.js"></script>
 
     <title>Preston Town Page</title>
   </head>
@@ -73,7 +74,7 @@
 
             <div class="seven-day">
                 <div class="forecast">
-                    <h2 class="heads">7 Day Forecast</h2>
+                    <h2 class="heads">5 Day Forecast</h2>
                     <div class="flex">
                       <div class="flex-col">
                           <span class="col-head">Monday</span>
@@ -100,16 +101,7 @@
                           <img src="https://cdn-icons-png.flaticon.com/128/1163/1163661.png" alt="Partly Cloudy">
                           <span class="data">70°F</span>
                       </div>
-                      <div class="flex-col">
-                          <span class="col-head">Saturday</span>
-                          <img src="https://cdn-icons-png.flaticon.com/128/1163/1163657.png" alt="Rain">
-                          <span class="data">71°F</span>
-                      </div>
-                      <div class="flex-col">
-                          <span class="col-head">Sunday</span>
-                          <img src="https://cdn-icons-png.flaticon.com/128/869/869869.png" alt="Sunshine">
-                          <span class="data">70°F</span>
-                      </div>
+                      
                   </div>
                   </div>
             </div>
@@ -152,15 +144,14 @@
     
     <footer>
       <p>
-        ©UC Weather Wiz | Jordan Reitz | United States  
-        <a href="https://byui.edu/online">BYUI Online Learning </a>
-        <script src="js/datetime.js">
+        ©<span id="footerYear"></span> | Jordan Reitz | United States  
+        <a href="https://byui.edu/online">BYUI Online Learning </a>| 
+        <span id="current_date"> </span>
         </script>
       </p>
-        <script src="js/datetime.js">
-        </script>
+      <p id="lastUpdated"></p>
+      <script src="js/datetime.js"></script>
     </footer>
     
-    <script src="js/button.js"></script>
   </body>
 </html>  

@@ -253,9 +253,8 @@ footer a {
     color: black;
 }
 
-.seven-day {
-    display: none;
-
+.flex {
+    display: flex;
 }
 
 .summary {
