@@ -1,8 +1,5 @@
-// program to display the date
-// get local machine date time
-const date = new Date();
+const lastUpdated = document.querySelector('#lastUpdated');
+lastUpdated.textContent = `Last Updated: ${formatDate(new Date(document.lastModified), 'other')}`
 
-// get the date as a string
-const n = date.toLocaleDateString('en-us', { weekday:"long", year:"numeric", day:"numeric", month:"long"});
-// display date
-document.write(n);
+const footerYear = document.querySelector('#footerYear');
+footerYear.textContent = date.getFullYear();
