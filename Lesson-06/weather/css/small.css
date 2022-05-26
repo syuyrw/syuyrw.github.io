@@ -227,6 +227,7 @@ main figure.hero-banner {
 }
 
 main figure.hero-banner img {width: 100%;
+    height: auto;
 }
 
 h1 {
@@ -294,6 +295,7 @@ main figure.mountains {
 }
 
 main figure.mountains img {width: 100%;
+    height: auto;
 }
 
 .summary {
