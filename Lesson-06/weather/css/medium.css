@@ -77,7 +77,7 @@
         .forecast {
             display: block;
             text-align: center;
-            
+            color: #333;
         }
     
         .flex-forecast {
@@ -120,7 +120,7 @@
             font-weight: 700;
             font-size: 1rem;
             background-color: #76B2D3;
-            color: white;
+            color: #333;
         }
     
         .forecast h3 {
