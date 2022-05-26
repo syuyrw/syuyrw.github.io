@@ -211,11 +211,11 @@ footer {
 }
 
 footer p {
-    color: black;
+    color: white;
 }
 
 footer script {
-    color: #333;
+    color: white;
 }
 
 .logo {
@@ -262,7 +262,7 @@ h2 {
 }
 
 footer a {
-    color: black;
+    color: white;
 }
 
 .forecast {
