@@ -1,0 +1,243 @@
+.flex-col {
+    display: none;
+
+}
+
+.flex-col:last-of-type {
+    display: flex;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+nav {
+    margin: 0 auto;
+    background-color: #1D9DEB;
+    font-family: "noto sans jp";
+    
+}
+
+nav ul li a {
+    color: white;
+}
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: white;
+
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    border-top: 1px solid rgba(0,0,0,0.5)
+}
+
+nav ul li.active a {
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+
+.responsive li {
+    display: block;
+}
+
+/*Header*/
+header {
+    padding: 5px 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    background-color: #D71920;
+    color: #fff;
+}
+
+.headings h2 {
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'noto sans jp';
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    margin-left: .5rem;
+    justify-content: center;
+    font-family: "ubuntu";
+    font-size: 2em;
+}
+
+
+
+.logo {
+    height: 90px;
+}
+
+.h {
+    background-color: #1D9DEB;
+    height: 50px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.heads {
+    text-align: center;
+    font-family: "ubuntu";
+    color: white;
+    margin: auto;
+    width: 100%;
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+p {
+    font-family: "noto sans jp";
+}
+
+/*weather info*/
+.summary {
+    background-color: #1D9DEB;
+    text-align: center;
+    color: black;
+    font-family: "ubuntu";
+}
+
+
+
+.weather-info-left {
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+
+.flex-col {
+    align-items: center;
+    left:auto;
+    right: auto;
+}
+
+main figure.hero-banner {
+    display:block;
+    width: 100%;
+}
+
+main figure.hero-banner img {width: 100%;
+    height: auto;
+}
+
+
+.jeepimg {
+    width: 100%;
+}
+
+.hc {
+    background-color: #1D9DEB;
+    height: 50px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.hc h1 {
+    text-align: center;
+    font-family: "ubuntu";
+    color: white;
+    margin: auto;
+    width: 100%;
+    position: absolute;
+}
+
+
+/*Footer*/
+footer {
+    text-align: center;
+    background-color: #D71920;
+    color: #fff;
+
+    min-height:50px;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+p {
+    padding: 10px;
+}
+
+.left {
+    float: left;
+    width: 50%
+}
+
+.right {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+.map {
+    width: 100%
+}
+
+footer {
+    font-size: 1em;
+}
+
+footer p {
+    color: white;
+    font-size: 1.23rem;
+    font-size: 1em;
+}
+
+footer script {
+    color: white;
+    font-size: 1em;
+
+}
+
+footer a {
+    color: white;
+    font-size: 1em;
+}
+
+footer img {
+    width: 25px;
+}
+

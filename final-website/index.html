@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is the home page for the final assignment for the scoots page">
+    <meta name="Author" content="Jordan Reitz">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <title>Scoots Home Page</title>
+  </head>
+  <body>
+    
+    <header>
+        <figure class="site-logo"> 
+            <img src="images/scoots-logo.png" alt="site-logo" class="logo">
+        </figure>   
+        <section class="headings">
+            <h1>Scoots</h1>
+            <h2>Motorizing Your Vacation</h2>
+        </section>
+    </header>
+
+    <nav>
+<button id="hamburgerBtn">&#9776;</button>
+            <ul id="primaryNav">
+                <li class="active"> <a href="index.html">Home</a></li>
+                <li> <a href="rentals.html">Rentals</a></li>
+                <li> <a href="reservations.html">Reservations</a></li>
+                <li> <a href="tours.html">Tours</a></li>
+                <li> <a href="contact.html">Contact Us</a></li>
+
+            </ul>
+    </nav>
+    
+    <main> 
+        <div class="content">
+            <div class="weather-info">
+                <figure class="hero-banner">
+                    <img src="images/1200.jpg" alt="scoots-banner"
+                    srcset="images/1200.jpg 1621w,
+                    images/800.jpg 800w,
+                    images/600.jpg 491w">
+                </figure>
+                <div class="summary">
+                    <h2 class="summary-head">Weather Summary</h2>
+                    <div class="current">
+                        <div class="weather-info-left">
+                            <p>Currently:</p>
+                            <p>Description:</p>
+                            <p>Humidity:</p>
+                        </div>
+                        <div class="weather-info-right">
+
+                        </div>
+                        <section class="forecast">
+                            <h2 class="summary-head">5 Days From Now</h2>
+                            <div class="flex-forecast">
+                                
+                            </div>
+                        </section>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="intro">
+                    <div class="h"><h1 class="heads">
+                        Why Should You Rent a Vehicle?
+                    </h1></div>
+                    <p>
+                        Ask any of the locals, or any of the previous visitors. Each one of them will tell you that this island is truly meant to be enjoyed 
+                        with a vehicle that is capable of bringing you to every part of the island. Take a look at the vihicles that we have available, and find 
+                        one that you can use to help make the most of your trip.
+                        <img src="images/jeep.jpeg" alt='jeep' class="jeepimg">
+                    </p>
+                    
+                </div>
+                
+            </div>
+
+            <div class="section">
+                <div class="rental-brief">
+                    <div class="h"><h1 class="heads">Our Rentals</h1></div>
+                    <div class="left">
+                        <p>Honda Metro Scooter</p>
+                        <p>Honda Dio Scooter</p>
+                        <p>Honda PCX150 Scooter</p>
+                        <p>Honda Pioneer ATV</p>
+                        <p>Jeep Wrangler-4 door with a/c</p>
+                        <p>Jeep Wrangler - 2 door</p>
+                    </div>
+
+                    <div class="right">
+                        <p>1 person</p>
+                        <p>2 person</p>
+                        <p>2 person</p>
+                        <p>4 person</p>
+                        <p>5 person</p>
+                        <p>4 person</p>
+                    </div>
+                </div>
+            </div>
+
+        
+
+            <div class="contact-info">
+                <h1 class="contact-head">Contact Information</h1>
+                    <div class="contact">   
+                        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d478797.70382027887!2d-87.10499351372088!
+                        3d20.357845289280732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4ef8efb0d19327%3A0x342ebcae5c018b
+                        fc!2sCozumel!5e0!3m2!1sen!2sus!4v1653956355773!5m2!1sen!2sus" width="400" height="300" 
+                        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="contact-info">
+                            <p>Phone: 888-888-8888</p>
+                            <p>Email: scoots@contactless.com</p>
+                            <p>Address: Cozumel, Mexico</p>
+                        </div>
+                    </div> 
+            </div>
+        </div>
+    </main>   
+    
+    <footer>
+        <p>
+          "©<script src="js/currentyear.js"></script> | Jordan Reitz | United States  "
+          <a href="https://byui.edu/online">BYUI Online Learning</a>
+          <a href="facebook.com">
+              <img src="images/facebook.png" alt="facebooik" class="social">
+          </a>
+          <a href="instagram.com">
+            <img src="images/instagram.png" alt="instagram" class="social">
+        </a>
+        <a href="facebook.com">
+            <img src="images/messenger.png" alt="messenger" class="social">
+        </a>
+         
+        </p>
+        <script src="js/datetime.js">
+        </script>
+      
+        
+    </footer>
+
+    <script src="js/weatherapi.js"></script>
+    <script src="js/5daysout.js"> </script>
+    <script src="js/button.js"></script>
+  </body>
+</html>  
