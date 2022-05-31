@@ -12,7 +12,6 @@
     box-sizing: border-box;
 }
 
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Ubuntu&display=swap');
 
@@ -235,5 +234,9 @@ footer a {
 
 footer img {
     width: 25px;
+}
+
+.contact-info {
+    text-align: center;
 }
 
