@@ -31,7 +31,7 @@ nav button {
     background: transparent;
     border: none;
     font-size: 2rem;
-    color: white;
+    color: black;
 
 }
 
@@ -109,7 +109,7 @@ header {
 .heads {
     text-align: center;
     font-family: "ubuntu";
-    color: white;
+    color: black;
     margin: auto;
     width: 100%;
     position: absolute;
