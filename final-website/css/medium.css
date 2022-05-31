@@ -1,7 +1,7 @@
 @media only screen and (min-width: 45em) {
     .summary {
         position: absolute;
-        top: 170px;
+        top: 250px;
         right: 50px;
         background: radial-gradient(#eee, #1D9DEB);
         border: 1px solid #000;

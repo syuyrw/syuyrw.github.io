@@ -72,35 +72,29 @@ nav ul.open {display: block;}
 
 /*Header*/
 header {
-    padding: 5px 0;
     display: flex;
-    align-content: center;
     justify-content: center;
 
     background-color: #D71920;
     color: #fff;
+    height: 120px;
 }
 
 .headings h2 {
     font-size: 1.25rem;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 0px;
     font-family: 'noto sans jp';
 }
 
-.headings {
-    display: flex;
-    flex-direction: column;
-    margin-left: .5rem;
-    justify-content: center;
-    font-family: "ubuntu";
-    font-size: 2em;
-}
+
 
 
 
 .logo {
     height: 90px;
+    justify-content: center;
+    padding-top: 30px;
 }
 
 .h {
