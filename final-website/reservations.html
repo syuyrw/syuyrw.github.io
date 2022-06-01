@@ -66,29 +66,29 @@
             </div>
 
             <div class="reserveForm">
-                <h2>Reserve A Vehicle</h2>
+                <div class="h"><h2 class="heads">Reserve A Vehicle</h2></div>
                     <form>
                         
                         <fieldset>
                             <legend>Your Information</legend>
-                            <label>First Name*<input type="text" name="fname" required></label>
-                            <label>Last Name*<input type="text" name="lname" required></label>
-                            <label>Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
-                            <label>Email<input type="email" name="email" placeholder="someone@gmail.com"></label>
-                            <label>Home State/Country*<input type="text" name="home" required></label>
-                            <label>Cruise Line You Came From (leave blank if not applicable)<input type="text" name="cruise"></label>
+                            <label class="top">First Name*<input type="text" name="fname" required></label>
+                            <label class="top">Last Name*<input type="text" name="lname" required></label>
+                            <label class="top">Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
+                            <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com"></label>
+                            <label class="top">Home State/Country*<input type="text" name="home" required></label>
+                            <label class="top">Cruise Line You Came From (leave blank if not applicable)<input type="text" name="cruise"></label>
                         </fieldset>
 
                         <fieldset>
                             <legend>Rental Information</legend>
                             <div>Day Length</div>
-                            <label><input type="radio" name="dayLength" value="halfDay">Half Day</label>
-                            <label><input type="radio" name="dayLength" value="fullDay">Full Day</label>
-                            <label>Rental Period Start <input type="date" name="startDate"></label>
-                            <label>Rental Period End <input type="date" name="endDate"></label>
-                            <label>Vehicle to Rent
+                            <label class="sbs"><input type="radio" name="dayLength" value="halfDay">Half Day</label>
+                            <label class="sbs"><input type="radio" name="dayLength" value="fullDay">Full Day</label>
+                            <label class="top">Rental Period Start <input type="date" name="startDate"></label>
+                            <label class="top">Rental Period End <input type="date" name="endDate"></label>
+                            <label class="top">Vehicle to Rent
                                 <select name="vehicle">
-                                    <option value="">Please Select One</option>
+                                    <option value="">Please Select One &#9662;</option>
                                     <option value="hMetro">Honda Metro Scooter</option>
                                     <option value="hDio">Honda Dio Scooter</option>
                                     <option value="hPioneer">Honda Pioneer ATV</option>
@@ -98,12 +98,13 @@
                                 </select>
                             </label>
 
-                            <label>How Many Vehicles <input type="number" name="vehicleNumber"></label>
+                            <label class="top">How Many Vehicles <input type="number" name="vehicleNumber"></label>
                         </fieldset>
 
-                        <a href="thanks.htm">
-                            <input type="submit" value="Request Rental">
-                        </a>
+                        
+                    </form>
+                    <form action="thanks.html">
+                        <input type="submit" value="Request Rental" class="submitBtn"/>
                     </form>
             </div>
 

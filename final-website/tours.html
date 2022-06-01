@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="This is the home page for the final assignment for the scoots page">
     <meta name="Author" content="Jordan Reitz">
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
 
-    <title>Scoots Home Page</title>
+    <title>Scoots Tours Page</title>
   </head>
   <body>
     
@@ -27,10 +28,10 @@
     <nav>
 <button id="hamburgerBtn">&#9776;</button>
             <ul id="primaryNav">
-                <li class="active"> <a href="index.html">Home</a></li>
+                <li> <a href="index.html">Home</a></li>
                 <li> <a href="rentals.html">Rentals</a></li>
                 <li> <a href="reservations.html">Reservations</a></li>
-                <li> <a href="tours.html">Tours</a></li>
+                <li class="active"> <a href="tours.html">Tours</a></li>
                 <li> <a href="contact.html">Contact Us</a></li>
 
             </ul>
@@ -38,42 +39,58 @@
     
     <main> 
         <figure class="hero-banner">
-            <img src="images/1200.jpg" alt="scoots-banner"
+            <img src="images/600.jpg" alt="scoots-banner"
+            sizes="50vw"
             srcset="images/1200.jpg 1621w,
             images/800.jpg 800w,
             images/600.jpg 491w">
         </figure>
-        <div class="section">
+        <div class="content">
+            <div class="section">
+                <div class="h"><h2 class="heads">Places to Go</h2></div>
+                <div class="h"><h3 class="heads">Theres lots to do while you're here!</h3></div>
+                <p> Visit the wild east side! The “wild” east side of the island is absolutely worth a visit. While the west side is primarily hotels 
+                    and beach clubs, the east side of Cozumel is a paradise of remote beaches interspersed with fantastic local beach bars. There are 
+                    also a few great places to grab a lounger, eat some fresh fish tacos and take a dip in the water such as Chen Rio and Punta Morena, 
+                    but the real highlight of the east side is the wonderful natural emptiness of it all. Be sure to stop for a fresh handmade beach 
+                    cocktail at Rastas, Welcome to Miami or Mezcalitos (or all three!) and let the sea breeze wash over you. Hammocks included.</p>
+
+                <p> Go diving! Cozumel is world-renowned for its scuba diving and proximity to numerous top dive sites. The Mesoamerican reef system is the second-largest 
+                    reef system in the world (after the Great Barrier Reef), and there is extensive coral and sea life with incredible visibility. 
+                    From beginner’s discovery dives to advanced drift dives, there’s something for everyone around Cozumel.</p>
+
+                <p>Spend the day at a beach club! The west side of Cozumel has incredible sparkling, turquoise waters and numerous beautiful beaches. When visiting the 
+                    island, there are several fantastic beach clubs where visitors have access to sandy beaches, swimming pools, oceanfront restaurants, beach bars, 
+                    sun loungers, water activities and more. They typically range in cost from 
+                    $10 USD to $65 USD per person with the pricier options being all inclusive with drinks and food.</p>
+
+                <p>For more suggestions of things you can do visit: <a href="https://www.islandlifemexico.com/best-of-cozumel/">Cozumel Visitors Guide</a></p>
+            </div>
             
         </div>
-
-        <section class="contact-info">
-            <h2 class="heads">Contact Information</h2>
-            <div class="contact">   
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d478797.70382027887!2d-87.10499351372088!
-                3d20.357845289280732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4ef8efb0d19327%3A0x342ebcae5c018b
-                fc!2sCozumel!5e0!3m2!1sen!2sus!4v1653956355773!5m2!1sen!2sus" width="400" height="300" 
-                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <div class="contact-info">
-                    <p>Phone: 888-888-8888</p>
-                    <p>Email: scoots@contactless.com</p>
-                    <p>Address: Cozumel, Mexico</p>
-                </div>
-            </div> 
-        </section>
     </main>   
     
     <footer>
         <p>
           "©<script src="js/currentyear.js"></script> | Jordan Reitz | United States  "
           <a href="https://byui.edu/online">BYUI Online Learning</a>
-          <script src="js/datetime.js">
-          </script>
+          <a href="facebook.com">
+              <img src="images/facebook.png" alt="facebooik" class="social">
+          </a>
+          <a href="instagram.com">
+            <img src="images/instagram.png" alt="instagram" class="social">
+        </a>
+        <a href="facebook.com">
+            <img src="images/messenger.png" alt="messenger" class="social">
+        </a>
+         
         </p>
+        <script src="js/datetime.js">
+        </script>
       
         
     </footer>
-    
-    <script src="js/button.js"></script>
+
+    <script src="js/button.js" defer></script>
   </body>
 </html>  
