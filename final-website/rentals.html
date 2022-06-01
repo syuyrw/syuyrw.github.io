@@ -3,16 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="This is the home page for the final assignment for the scoots page">
+    <meta name="description" content="This is the rentals page for the final assignment for the scoots page">
     <meta name="Author" content="Jordan Reitz">
-
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
 
-    <title>Scoots Home Page</title>
+    <title>Scoots Rentals Page</title>
   </head>
   <body>
     
@@ -29,8 +27,8 @@
     <nav>
 <button id="hamburgerBtn">&#9776;</button>
             <ul id="primaryNav">
-                <li class="active"> <a href="index.html">Home</a></li>
-                <li> <a href="rentals.html">Rentals</a></li>
+                <li> <a href="index.html">Home</a></li>
+                <li class="active"> <a href="rentals.html">Rentals</a></li>
                 <li> <a href="reservations.html">Reservations</a></li>
                 <li> <a href="tours.html">Tours</a></li>
                 <li> <a href="contact.html">Contact Us</a></li>
@@ -45,37 +43,77 @@
             images/800.jpg 800w,
             images/600.jpg 491w">
         </figure>
-        <div class="section">
-            
-        </div>
-
-        <section class="contact-info">
-            <h2 class="heads">Contact Information</h2>
-            <div class="contact">   
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d478797.70382027887!2d-87.10499351372088!
-                3d20.357845289280732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4ef8efb0d19327%3A0x342ebcae5c018b
-                fc!2sCozumel!5e0!3m2!1sen!2sus!4v1653956355773!5m2!1sen!2sus" width="400" height="300" 
-                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <div class="contact-info">
-                    <p>Phone: 888-888-8888</p>
-                    <p>Email: scoots@contactless.com</p>
-                    <p>Address: Cozumel, Mexico</p>
+        
+        
+        <div class="content">
+            <div class="section"></div>
+                <div class="rent-info">
+                    <div class="h"><h2 class="heads">Rental Information</h2></div>
+                    <div class="info">
+                        <p>A $50 security deposit is required to confirm reservations.</p>
+                        <p>A valid drivers license is required in hand at time of rental.</p>
+                        <p>No one under 12 years of age is allowed to ride on the scooters.</p>
+                        <p>Fuel charge not included.</p>
+                        <p>Unlimited mileage.</p>
+                
+                        <p>Liability insurance is free of charge.</p>
+                        <p>Reservations rate requires 24 hour prior notification.</p>
+                        <p>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</p>
+                        <p>Payment via Google Pay, cash, credit card, debit card, or PayPal.</p>
+                        <p>Rentals may be returned to either location.</p>
+                    </div>
                 </div>
-            </div> 
-        </section>
+            </div>
+
+            <div class="section">
+                <div class="pricing">
+                    <div class="h"><h2 class="heads">Pricing</h2></div>
+
+                    <table class="table table-striped">
+                        <tr class="bg-info">
+                            <th>Vehicle</th>
+                            <th>Reserved Half Day</th>
+                            <th>Reserved Full Day</th>
+                            <th>Walk In Half Day</th>
+                            <th>Walk In Full Day</th>
+                        </tr>
+
+                        <tBody id="myTable">
+
+                        </tBody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
     </main>   
     
     <footer>
         <p>
           "©<script src="js/currentyear.js"></script> | Jordan Reitz | United States  "
           <a href="https://byui.edu/online">BYUI Online Learning</a>
-          <script src="js/datetime.js">
-          </script>
+          <a href="facebook.com">
+              <img src="images/facebook.png" alt="facebooik" class="social">
+          </a>
+          <a href="instagram.com">
+            <img src="images/instagram.png" alt="instagram" class="social">
+        </a>
+        <a href="facebook.com">
+            <img src="images/messenger.png" alt="messenger" class="social">
+        </a>
+         
         </p>
+        <script src="js/datetime.js">
+        </script>
       
         
     </footer>
+
+    <script src="js/weatherapi.js" defer></script>
+    <script src="js/5daysout.js" defer> </script>
+    <script src="js/button.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/pricing.js"></script>
     
-    <script src="js/button.js"></script>
   </body>
 </html>  
