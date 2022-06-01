@@ -262,7 +262,7 @@ form legend {
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    color: red;
+    color: black;
     font-size: .8rem;
 }
 
