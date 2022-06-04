@@ -1,0 +1,20 @@
+@media only screen and (min-width: 64rem) {
+    body {
+        max-width: 1200px;
+        margin: 0 auto; 
+    }
+
+    header footer {
+        max-width: 80%;
+    }
+
+    main {
+        max-width: 85%;
+        margin-left:auto;
+        margin-right: auto;
+    }
+
+    .summary {
+        margin-right: 60%;
+    }
+}
