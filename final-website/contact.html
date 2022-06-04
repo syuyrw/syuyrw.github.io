@@ -6,7 +6,6 @@
     <meta name="description" content="This is the home page for the final assignment for the scoots page">
     <meta name="Author" content="Jordan Reitz">
 
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -29,53 +28,92 @@
     <nav>
 <button id="hamburgerBtn">&#9776;</button>
             <ul id="primaryNav">
-                <li class="active"> <a href="index.html">Home</a></li>
+                <li> <a href="index.html">Home</a></li>
                 <li> <a href="rentals.html">Rentals</a></li>
                 <li> <a href="reservations.html">Reservations</a></li>
                 <li> <a href="tours.html">Tours</a></li>
-                <li> <a href="contact.html">Contact Us</a></li>
+                <li class="active"> <a href="contact.html">Contact Us</a></li>
 
             </ul>
     </nav>
     
     <main> 
-        <figure class="hero-banner">
-            <img src="images/1200.jpg" alt="scoots-banner"
-            srcset="images/1200.jpg 1621w,
-            images/800.jpg 800w,
-            images/600.jpg 491w">
-        </figure>
-        <div class="section">
-            
-        </div>
-
-        <section class="contact-info">
-            <h2 class="heads">Contact Information</h2>
-            <div class="contact">   
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d478797.70382027887!2d-87.10499351372088!
-                3d20.357845289280732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4ef8efb0d19327%3A0x342ebcae5c018b
-                fc!2sCozumel!5e0!3m2!1sen!2sus!4v1653956355773!5m2!1sen!2sus" width="400" height="300" 
-                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="content">
+            <div class="weather-info">
+                <figure class="hero-banner">
+                    <img src="images/600.jpg" alt="scoots-banner"
+                    sizes="50vw"
+                    srcset="images/1200.jpg 1621w,
+                    images/800.jpg 800w,
+                    images/600.jpg 491w">
+                </figure>
+                
+            <div class="section">
                 <div class="contact-info">
-                    <p>Phone: 888-888-8888</p>
-                    <p>Email: scoots@contactless.com</p>
-                    <p>Address: Cozumel, Mexico</p>
+                    <div class="h"><h2 class="heads">Contact Information</h2></div>
+                        <div class="contact">   
+                            <h3>Our First Location:</h3>
+                            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.898822996102!2d-86.95121458381243!3d20.510373481155035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e598b4f105bd3%3A0x48004ce2992e02bc!2sPAPELERIA%20LA%20MAESTRA!5e0!3m2!1sen!2sus!4v1654117086987!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <h3>Our Second Location:</h3>
+                            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.751791033358!2d-86.9752809!3d20.4753853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e574915f5accd%3A0x68d44ee21878dd24!2sCaribbean%20Supermarket!5e0!3m2!1sen!2sus!4v1654117180123!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            
+                            <div class="contactForm">
+                                <div class="h"><h2 class="heads">Contact Us</h2></div>
+                                    <form>
+                                        
+                                        <fieldset>
+                                            <legend>Your Information</legend>
+                                            <label class="top">Name*<input type="text" name="fname" required></label>
+                                            <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                                            
+                                        </fieldset>
+                
+                                        <fieldset>
+                                            <legend>Your Question or Comment</legend>
+                                            <label class="top">Comment/question<input type="text" name="comment" required></label>
+                                        </fieldset>
+                
+                                        
+                                    </form>
+                                    <form action="thanks2.html">
+                                        <input type="submit" value="Submit Question/Comment" class="submitBtn"/>
+                                    </form>
+                            </div>
+                            
+                            
+                            <div class="contact-info">
+                                <h3>Our Contact Info</h3>
+                                <p>Phone: 888-888-8888</p>
+                                <p>Email: scoots@contactless.com</p>
+                                <p>Address: Cozumel, Mexico</p>
+                            </div>
+                        </div> 
                 </div>
-            </div> 
-        </section>
+            </div>
+        </div>
     </main>   
     
     <footer>
         <p>
           "©<script src="js/currentyear.js"></script> | Jordan Reitz | United States  "
           <a href="https://byui.edu/online">BYUI Online Learning</a>
-          <script src="js/datetime.js">
-          </script>
+          <a href="facebook.com">
+              <img src="images/facebook.png" alt="facebooik" class="social">
+          </a>
+          <a href="instagram.com">
+            <img src="images/instagram.png" alt="instagram" class="social">
+        </a>
+        <a href="facebook.com">
+            <img src="images/messenger.png" alt="messenger" class="social">
+        </a>
+         
         </p>
+        <script src="js/datetime.js">
+        </script>
       
         
     </footer>
-    
-    <script src="js/button.js"></script>
+
+    <script src="js/button.js" defer></script>
   </body>
 </html>  
